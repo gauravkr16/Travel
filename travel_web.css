@@ -1,0 +1,72 @@
+html{
+    background-image: url(https://wallpaperaccess.com/full/1318008.jpg);
+    background-size: cover;
+}
+h1{ font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 45px;
+    color:khaki;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.267);
+}
+header div{
+    display: flex;
+    align-items: center;
+    margin: 0rem 1rem;
+    color:khaki;
+}
+header div i{
+    margin: 1rem;
+    font-size:x-large;
+}
+header nav{
+    padding: 1rem  2rem;
+}
+nav ul li{
+    display: inline;
+}
+nav li a{
+    padding: 0.5rem;
+    color: burlywood;
+    text-decoration: white;
+}
+nav li a:hover{
+    background:rgba(0, 0, 0, 0.651);
+    color: blanchedalmond;
+    padding: 1.5rem;
+}
+.container-boxes {
+    margin: 0 auto;
+    padding: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    max-width: 80vw;
+  }
+  .box {
+    background:khaki;
+    margin: 1rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 350px;
+    max-height: 180px;
+    min-height: 180px;
+    transition: all 250ms ease-out;
+  }
+  .box:hover {
+    background: rgba(255, 255, 255, 0.7);
+    transform: translateY(-10%);
+  }
+  .box a {
+    text-decoration: none;
+    color: black;
+  }
+  .icon {
+    font-size: 3rem;
+    padding: 1rem;
+  }
